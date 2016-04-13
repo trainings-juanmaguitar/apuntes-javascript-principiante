@@ -1,16 +1,16 @@
 ## Prologo
 
-Este libro contiene la primera parte de los materiales que he ido realizando para diferentes trainings JAVASCRIPT impartidos desde 2010.
+Este libro **Apuntes de Javascript I - Nivel Principiante** es parte del resultado de los materiales que he ido realizando para diferentes trainings JAVASCRIPT impartidos desde 2010.
 
-Esta primera parte abarca desde lo más basico hasta un nivel intermedio que incluye:
+Esta primera parte abarca todo lo necesario para arrancar con el lenguaje partiendo de cero e incluye:
 
-- las bases de javascript como lenguaje de programacion (variables, operadores, condicionales, bucles, tipos datos, etc...)
+- Ideas Claras sobre Javascript
+- Primeros pasos
+- Las bases de javascript como lenguaje de programacion (variables, operadores, condicionales, bucles, tipos datos, etc...)
+- jQuery
 - conceptos importantes asociados al lenguaje y como manejarlos (JSON, AJAX, eventos, dom, bom)
-- algunos conceptos un poco mas avanzados pero fundamentales para entener el javascript actual (closures, expresiones regulares, objetos)
 
-Los conceptos cubiertos en este libro te permitiran trabajar y comprender el javascript del 90% de los proyectos
-
-Espero que este libro te ayude a entender/implementar el codigo javascript que necesites.
+Espero que este libro te ayude a "romper el hielo" con javascript
 
 Cualquier feedback será bien recibido :)
 

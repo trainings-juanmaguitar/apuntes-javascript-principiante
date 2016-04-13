@@ -1,40 +1,36 @@
-# Apuntes de Javascript I - Nivel Intermedio
+# Apuntes de Javascript I - Nivel Principiante
 
 ## Descripción ##
 
-Este repositorio contiene la **primera parte** de los materiales que he ido realizando para diferentes trainings JAVASCRIPT impartidos desde 2010.
+Este repositorio contiene los contenidos del libro **Apuntes de Javascript I - Nivel Principiante** que es el resultado de los materiales que he ido realizando para diferentes trainings JAVASCRIPT impartidos desde 2010.
 
-Esta primera parte abarca desde lo más basico hasta un nivel intermedio que incluye:
+Esta primera parte abarca todo lo necesario para arrancar con el lengiaje partiendo de cero e incluye:
 
-- las bases de javascript como lenguaje de programacion (variables, operadores, condicionales, bucles, tipos datos, etc...)
+- Ideas Claras sobre Javascript
+- Primeros pasos
+- Las bases de javascript como lenguaje de programacion (variables, operadores, condicionales, bucles, tipos datos, etc...)
+- jQuery
 - conceptos importantes asociados al lenguaje y como manejarlos (JSON, AJAX, eventos, dom, bom)
-- algunos conceptos un poco mas avanzados pero fundamentales para entener el javascript actual (closures, expresiones regulares, objetos)
-
-Los conceptos cubiertos en este libro te permitiran trabajar y comprender el javascript del 90% de los proyectos
 
 ## Contenidos ##
 
 Este material cubre los siguientes contenidos:
 
-- [Ideas Claras, Historia del JS, EcmaScript](markdown/generalidades)
+- [Ideas Claras](markdown/generalidades)
 - [Variables, Tipos de Datos y Operadores](markdown/variable_tipos_datos_operadores)
 - [Condicionales y Bucles](markdown/condiciones_bucles)
-- [Funciones (Predefinidas, Callback, Closures...)](markdown/funciones)
-- [Arrays y Objetos (Funciones Constructoras)](markdown/objetos)
+- [Funciones (Predefinidas)](markdown/funciones)
+- [Arrays y Objetos](markdown/objetos)
 - [Objetos Globales (Object, Function, Array, Number, Boolean, Math y Date)](markdown/objetos_globales)
-    - [Array Object (& Higher Order Functions)](markdown/arrays)
 - [El entorno del navegador](markdown/entorno_navegador)
-    -  [DOM, Seleccion de elementos](markdown/entorno_navegador/DOM)
-    -  [BOM](markdown/entorno_navegador/BOM)
 - [Eventos](markdown/eventos)
 - [JSON](markdown/JSON)
 - [AJAX](markdown/AJAX)
-- [Expresiones Regulares](markdown/expresiones_regulares)
 
 
 ## Libro ##
 
-Si quieres acceder a este contenido en formato PDF, EPUB o MOBI puedes adquirir el libro por un precio simbolico desde [aqui](https://leanpub.com/apuntes-javascript-intermedio/)
+Si quieres acceder a este contenido en formato PDF, EPUB o MOBI puedes adquirir el libro por un precio simbolico desde [aqui](https://leanpub.com/apuntes-javascript-principiante/)
 
 [<img src="manuscript/images/title_page.png">](https://leanpub.com/apuntes-javascript-intermedio/)
 
