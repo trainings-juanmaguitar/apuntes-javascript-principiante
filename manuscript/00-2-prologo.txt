@@ -1,6 +1,6 @@
 ## Prologo
 
-Este libro **Apuntes de Javascript I - Nivel Principiante** es parte del resultado de los materiales que he ido realizando para diferentes trainings JAVASCRIPT impartidos desde 2010.
+Este libro **Apuntes de Javascript I - Nivel Principiante** es la primera parte de una trilogía de libros que son el resultado de los materiales que he ido realizando para diferentes trainings JAVASCRIPT impartidos desde 2010.
 
 Esta primera parte abarca todo lo necesario para arrancar con el lenguaje partiendo de cero e incluye:
 
@@ -9,6 +9,10 @@ Esta primera parte abarca todo lo necesario para arrancar con el lenguaje partie
 - Las bases de javascript como lenguaje de programacion (variables, operadores, condicionales, bucles, tipos datos, etc...)
 - jQuery
 - conceptos importantes asociados al lenguaje y como manejarlos (JSON, AJAX, eventos, dom, bom)
+
+> **Nota importante**: Estos libros estan centrados sobre todo en el _desarrollo de javascript para el lado del cliente_ (navegador). El uso de javascript en el servidor (Node.js, Express.js, MongoDB, etc...) es tema para otro libro.
+
+> De todas maneras la mayor parte del contenido de estos libros es aplicable tambien el el servidor.
 
 Espero que este libro te ayude a "romper el hielo" con javascript
 
@@ -24,7 +28,7 @@ Ademas de los enlaces reflejados, este material está basado en los siguientes l
 
 ## Agradecimientos
 
-Gracias a [@gemmabeltra](https://twitter.com/gemmabeltra) por la super-portada del libro (...y por aguantarme en general)
+Gracias a [@gemmabeltra](https://twitter.com/gemmabeltra) por ayudarme con las super-portadas de los libros (...y por aguantarme en general)
 
 A [@amischol](https://twitter.com/amischol) por elevar mi nivel de javascript y el de todos los que hemos trabajado a su lado (cuando nosotros vamos, él ya tiene su chalet alli montado)
 
@@ -32,5 +36,8 @@ A [@cvillu](https://twitter.com/cvillu) por animarme a escribir el libro y descu
 
 A [@crossrecursion](https://twitter.com/crossrecursion) por nuestras charlas/reuniones hablando de Javascript (me excitas... intelectualmente)
 
-Y a [@softonic](http://www.twitter.com/softonic) por darme la oportunidad de impartir los trainings JS y rodearme de tanta gente crack en JavaScript. No hay universidad que me pueda enseñar lo que he podido aprender alli.
+Y a todas las empresas e instituciones que han confiado en mi ([Softonic](http://www.softonic.com/), [CSD](http://juanmaguitar.github.io/training-csd/#1),  [La Salle](http://juanmaguitar.github.io/training-laSalle/index.html#1), [Ironhack](http://juanmaguitar.github.io/grunt-workshop-ironhack/), [Vueling](http://juanmaguitar.github.io/training-js-vueling/),...)  dandome la oportunidad de impartir los diferente trainings de Frontend y JS
+
+
+Softonic, La Salle University, Ironhack, Vueling, Code Institute
  
