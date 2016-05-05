@@ -18,12 +18,6 @@ Para crear un objeto vacio podemos usar:
 - La notacion literal :  `var o = {}`
 - La funcion constructora Object():  `var o = new Object();`
 
-Un objeto contiene las siguientes propiedades y metodos:
-
-- La propiedad [`o.constructor`](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object/constructor) con la función constructora
-- El método [`o.toString()`](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object/toString) que devuelve el objeto en formato texto
-- El método [`o.valueOf()`](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object/ValueOf) que devuelve el valor del objeto (normalmente o)
-
 ```javascript
 >>> var o = new Object();
 >>> o.toString()
@@ -264,98 +258,12 @@ Podemos crear funciones con la función constructora `Function()` (aunque este m
 3
 ```
 
-Las funciones disponen de las siguientes propiedades:
-
-- La propiedad `constructor` que contiene una referencia a la funcion constructora _Function()_ 
-- La propiedad [`length`](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function/length) que contiene el numero de parametros que acepta la función 
-- La propiedad [`caller`](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function/caller) (no standard) que contiene una referencia a la funcion que llamó a esta función 
-- La propiedad [`prototype`](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function/prototype) que contiene un objeto.  
-
-    - Sólo es util cuando utilizamos una funcion como constructora.  
-    - Todos lo objetos creados con una función constructora mantienen una referencia a su propiedad `prototype` y pueden usar sus propiedades como si fueran propias.
+Las funciones disponen de la propiedad [`length`](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function/length) que contiene el numero de parametros que acepta la función 
 
 ```javascript
->>> function myfunc(a){ return a; }
->>> myfunc.constructor
-Function()
-
 >>> function myfunc(a, b, c){ return true; }
 >>> myfunc.length
 3
-
->>> function A(){ return A.caller; }
->>> function B(){ return A(); }
->>> B()
-B()
-```
-
-```javascript
-var some_obj = { 
-  name: 'Ninja', 
-  say: function(){ 
-    return 'I am a ' + this.name; 
-  }
-}
->>> function F(){} 
->>> typeof F.prototype 
-"object"
->>> F.prototype = some_obj;
->>> var obj = new F();
->>> obj.name 
-"Ninja"
->>> obj.say() 
-"I am a Ninja"
-```
-
-Las funciones disponen de los siguientes métodos:
-
-- El método `toString()` que devuelve el código fuente de la función
-- Los métodos [`call()`](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function/call) y [`apply()`](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function/apply) que ejecutan metodos de otros objetos especificando el contexto (especificamos un `this` diferente)
-    - Estos dos métodos hacen lo mismo pero el formato en que reciben los argumentos es diferente
-
-```javascript
->>> function myfunc(a, b, c) {return a + b + c;}
->>> myfunc.toString()
-"function myfunc(a, b, c) { 
-return a + b + c; 
-}" 
-```
-
-```javascript
-var some_obj = { 
-  name: 'Ninja', 
-  say: function(who){ 
-    return 'Haya ' + who + ', I am a ' + this.name; 
-  }
-}
->>> some_obj.say('Dude'); 
-"Haya Dude, I am a Ninja"
-
->>> my_obj = {name: 'Scripting guru'};
->>> some_obj.say.call(my_obj, 'Dude'); 
-"Haya Dude, I am a Scripting guru"
-
-some_obj.someMethod.apply(my_obj, ['a', 'b', 'c']);
-some_obj.someMethod.call(my_obj, 'a', 'b', 'c');
-```
-
-Las funciones disponen del objeto `arguments` que (ademas de `length`) tiene la propiedad `callee` que contiene una referencia a la funcion llamada (a si misma)
-
-```javascript
->>> function f(){return arguments.callee;}
->>> f() 
-f()
-```
-
-```javascript
-( 
-  function(count){ 
-    if (count <= 5) { 
-      console.log(count); 
-      arguments.callee(++count); 
-    } 
-  }
-)(1)
 ```
 
 ##[Boolean](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean)

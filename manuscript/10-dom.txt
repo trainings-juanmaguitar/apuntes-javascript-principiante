@@ -1,0 +1,24 @@
+# DOM
+
+El **[DOM (Document Object Model)](http://www.w3.org/DOM/)** es una forma de representar un documento HTML (o XML) como un árbol de nodos.  
+Utilizando los métodos y propiedades del DOM podremos acceder a los elementos de la página, modificarlo, eliminarlos o añadir nuevos
+
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/
+xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>Página sencilla</title>
+    </head>
+    <body>
+        <p>Esta página es <strong>muy sencilla</strong></p>
+    </body>
+</html>
+```
+
+![DOM](images/dom.png)
+
+Los métodos y propiedades básicos para empezar a interactuar con el DOM son:
+

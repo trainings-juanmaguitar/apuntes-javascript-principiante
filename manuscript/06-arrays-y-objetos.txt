@@ -1,0 +1,159 @@
+#Arrays
+
+Un **[array](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array)** es una lista de valores.
+
+Para asignar valores a un array encerramos los elementos entre corchetes ( _array literal notation_ )  
+
+Los elementos de un array _son indexados con números consecutivos a partir de 0_  
+
+Para acceder a un elemento del array especificamos el _índice entre corchetes_
+
+```javascript
+var a = [1,2,3];
+>>> a[0]
+1
+>>> a[1]
+2
+```
+
+Podemos declarar un array vacio asi: `var a = [];`
+
+Para _añadir/actualizar_ un elemento del array:
+
+```javascript
+>>> a[2] = 'three';
+"three"
+>>> a
+[1, 2, "three"]
+>>> a[3] = 'four';
+"four"
+>>> a
+[1, 2, "three", "four"]
+```
+
+Para _eliminar_ un elemento del array podemos utilizar el operador `delete`:
+
+```javascript
+>>> var a = [1, 2, 3];
+>>> delete a[1];
+true
+>>> a
+[1, undefined, 3]
+```
+
+Un [array](http://bonsaiden.github.com/JavaScript-­‐Garden/#array.general) puede contener otros arrays.
+
+```javascript
+>>> var a = [1, "two", false, null, undefined];
+>>> a
+[1, "two", false, null, undefined]
+>>> a[5] = [1,2,3]
+[1, 2, 3]
+>>> a
+[1, "two", false, null, undefined, [1, 2, 3]]
+```
+
+```javascript
+>>> var a = [[1,2,3],[4,5,6]];
+>>> a
+[[1, 2, 3], [4, 5, 6]]
+>>> a[0]
+[1, 2, 3]
+>>> a[0][0]
+1
+>>> a[1][2]
+6
+```
+
+#Objetos
+
+```javascript
+var hero = {
+  breed: 'Turtle',
+  occupation: 'Ninja'
+};
+```
+
+Un **objeto** es como un array pero donde los índices los definimos nosotros  
+
+Para definir un objeto utilizamos las llaves `{}` ( _object literal notation_ )  
+
+Los elementos de un objeto ( _propiedades_ ) los separamos por comas  
+
+El par _clave/valor_ (key/value) lo dividimos con 2 puntos
+
+Las claves (_keys_, nombres de las propiedades) pueden ir entre comillas, pero _no se recomienda_ definirlas asi
+
+```javascript
+var o = {prop: 1};
+var o = {"prop": 1};
+var o = {'prop': 1};
+```
+
+Cuando una propiedad contiene una función, decimos que esta propiedad es un _método del objeto_
+
+```javascript
+var dog = {
+  name: 'Benji',
+  talk: function(){
+    alert('Woof, woof!');
+  } 
+};
+```
+
+Hay 2 maneras de acceder a la propiedad de un objeto:
+
+- Con la notación de corchetes: `hero['occupation']`  
+- Con la notación de puntos: `hero.occupation`  
+
+Los objetos pueden contener otros objetos
+
+```javascript
+var book = {
+  name: 'Catch-22',
+  published: 1961,
+  author: {
+    firstname: 'Joseph',
+    lastname: 'Heller'
+  }
+};
+>>> book.author.firstname
+"Joseph"
+>>> book['author']['lastname']
+"Heller"
+>>> book.author['lastname']
+"Heller"
+>>> book['author'].lastname
+"Heller"
+```
+
+Podemos definir un objeto vacio y luego añadirle (y quitarle) propiedades y métodos
+
+```javascript
+>>> var hero = {};
+>>> typeof hero.breed
+"undefined"
+>>> hero.breed = 'turtle';
+>>> hero.name = 'Leonardo';
+>>> hero.sayName = function() {return hero.name;};
+>>> hero.sayName();
+"Leonardo"
+>>> delete hero.name;
+true
+>>> hero.sayName();
+reference to undefined property hero.name
+```
+
+Cuando estamos dentro de un método, con `this` hacemos referencia al objeto al que
+pertenece ( _“this object”_ )
+
+```javascript
+var hero = {
+  name: 'Rafaelo',
+  sayName: function() {
+    return this.name;
+  }
+}
+>>> hero.sayName();
+"Rafaelo"
+```
