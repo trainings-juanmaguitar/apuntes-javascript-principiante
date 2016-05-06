@@ -52,10 +52,12 @@ A> → [Fundamentos de JavaScript](https://developer.mozilla.org/es/docs/Learn/G
 Puedes probar a copiar y pegar [este código](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Introducci%C3%B3n#Hola_Mundo) en la consola
 
 ```javascript
-//Declaramos una funcion llamada saludar, que lleva
-//'nombre' como argumento.
+// Declaramos una funcion llamada saludar, que lleva
+// 'nombre' como argumento.
 function saludar(nombre) {
-  return "Hola " + nombre; //Cuando se llama, esta funcion devuelve "Hola " y el nombre que se le ha pasado como argumento.
+  // Cuando se llama, esta funcion devuelve "Hola " 
+  // y el nombre que se le ha pasado como argumento.
+  return "Hola " + nombre; 
 }
 
 saludar("Usuario"); // Nos devolvera "Hola Usuario".

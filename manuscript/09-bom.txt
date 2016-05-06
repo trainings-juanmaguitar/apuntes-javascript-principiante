@@ -1,4 +1,4 @@
-# BOM
+# BOM (el navegador)
 
 El **BOM (Browser Object Model)** lo conforman todos los objetos que están fuera del documento cargado (document) y forman parte del objeto window
 
