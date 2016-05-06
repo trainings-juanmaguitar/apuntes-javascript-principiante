@@ -35,7 +35,7 @@ somevar is not defined
 ""
 ```
 
-T> Genera un warning y que ‘somevar’ devuelva `false` no quiere decir que no esté definida
+T> Genera un warning y que `somevar` devuelva `false` no quiere decir que no esté definida
 
 #### [Forma Correcta](http://bonsaiden.github.io/JavaScript-Garden/#types.typeof)
     

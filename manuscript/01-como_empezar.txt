@@ -84,7 +84,8 @@ O podemos cargar directmente el código javascript que queremos que se ejecute c
     - estructura el código HTML como elementos en forma de arbol
     - provee a javascript de métodos para acceder a (y modificar) estos elementos de multiples maneras
 
-_Ejemplo de código javascript accediendo (y modificando) elementos de HTML  _
+Ejemplo de código javascript accediendo (y modificando) elementos de HTML
+
 ```javascript
     var miTitulo = document.querySelector('h1');
     miTitulo.innerHTML = 'Hello world!';

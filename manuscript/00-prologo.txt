@@ -9,7 +9,7 @@ Esta primera parte abarca todo lo necesario para arrancar con el lenguaje partie
 - Tipos datos y estructuras (Arrays, Funciones, Objetos)
 - Javascript en el navegador (BOM) y primeros pasos interactuando con HTML (DOM, eventos)
 
-A> → **Nota importante**: Estos libros estan centrados sobre todo en el _desarrollo de javascript para el lado del cliente_ (navegador). El uso de javascript en el servidor (Node.js, Express.js, MongoDB, etc...) es tema para otro libro. Aun así, la mayor parte del contenido de estos libros es aplicable tambien el el servidor.
+A> _**Nota importante**: Estos libros estan centrados sobre todo en el _desarrollo de javascript para el lado del cliente_ (navegador). El uso de javascript en el servidor (Node.js, Express.js, MongoDB, etc...) es tema para otro libro. Aun así, la mayor parte del contenido de estos libros es aplicable tambien el el servidor._
 
 Espero que este libro te ayude a "romper el hielo" con javascript
 
