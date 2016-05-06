@@ -20,5 +20,18 @@ xhtml1/DTD/xhtml1-transitional.dtd">
 
 ![DOM](images/dom.png)
 
-Los métodos y propiedades básicos para empezar a interactuar con el DOM son:
+En cualquier página web tenemos disponible el objeto `document` que contiene multitud de métodos y propiedades para interactuar con el DOM. 
+
+## Selección de elementos 
+
+El objeto `document` provee de métodos para seleccionar nodos. Estos métodos devuelven objetos [`element`](https://developer.mozilla.org/es/docs/Web/API/Element) a través de los cuales podremos acceder a las propiedades de estos nodos.
+
+Algunos de estos métodos para seleccionar elementos son:
+
+- [`document.getElementById()`](https://developer.mozilla.org/es/docs/Web/API/Document/getElementById) Devuelve una referencia al elemento por su ID
+
+- [`document.getElementsByClassName()`](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByClassName) Devuelve una referencia al elemento por su ID
+
+
+
 

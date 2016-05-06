@@ -61,6 +61,7 @@ Aunque podemos utilizar ES2015 en nuestros proyectos desde hoy mismo si:
 
 - [transformamos el código a ES5](http://www.barbarianmeetscoding.com/blog/2016/02/21/start-using-es6-es2015-in-your-project-with-babel-and-gulp/) mediante un proceso de transpilacion (transformación de un tipo de código a otro tipo de código)
 
+A> → Estos libros estan centrados en ES5 que es el código que funcionará sin problemas directamente en tus páginas web.
 
 
 

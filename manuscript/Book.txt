@@ -1,5 +1,4 @@
-00-1-frase.txt
-00-2-prologo.txt
+00-prologo.txt
 01-como_empezar.txt
 02-generalidades.txt
 03-variables_operadores.txt

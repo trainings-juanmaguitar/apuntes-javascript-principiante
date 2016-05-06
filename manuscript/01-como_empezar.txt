@@ -1,7 +1,7 @@
 # Primeros pasos con Javascript
 
-A> → [Introducción a Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Introducci%C3%B3n#Where_to_find_JavaScript_information)
-A> → [Fundamentos de JavaScript](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+A> → [Introducción a Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Introducci%C3%B3n#Where_to_find_JavaScript_information)    
+A> → [Fundamentos de JavaScript](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics)    
 
 - Para empezar a programar con javascript sólo necesitamos
     - Un editor de texto como puede ser [Sublime Text](https://www.sublimetext.com/)
