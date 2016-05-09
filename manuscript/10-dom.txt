@@ -158,7 +158,7 @@ A> → [jQuery Selectors | refcardz.dzone.com](http://refcardz.dzone.com/refcard
 Para obtener los elementos utilizamos `$()` o `jQuery()` pasándole nuestra [selección CSS](http://api.jquery.com/category/selectors/) entre comillas
 
 ```javascript
-var $linksBluesGuitarPlayers = #leanpub-start-insert$('#guitar-players .blues a')#leanpub-end-insert
+var $linksBluesGuitarPlayers = $('#guitar-players .blues a')
 
 // or to restrict the search in an element...
 var $myList = $("#guitar-players");
