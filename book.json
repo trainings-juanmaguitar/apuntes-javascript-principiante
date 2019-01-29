@@ -1,0 +1,19 @@
+{
+  "root": "./docs",
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "plugins": ["page-toc", "disqus", "edit-link@1.1.0"],
+  "pluginsConfig": {
+    "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4",
+    "position": "top",
+    "showByDefault": true,
+    "disqus": {
+      "shortName": "apuntes-javascript-principiante"
+    },
+    "edit-link": {
+      "base": "git remote add origin git@github.com:trainings-juanmaguitar/apuntes-javascript-principiante/edit/master/docs",
+      "label": "Edit This Page"
+    }
+  }
+}
