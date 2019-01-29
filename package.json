@@ -8,7 +8,7 @@
   },
   "scripts": {
     "serve": "gitbook serve",
-    "build": "gitbook build"
+    "build": "gitbook install && gitbook build"
   },
   "repository": {
     "type": "git",
