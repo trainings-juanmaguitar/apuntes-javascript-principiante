@@ -3,7 +3,7 @@
   "styles": {
     "website": "styles/website.css"
   },
-  "plugins": ["page-toc", "disqus", "edit-link@1.1.0"],
+  "plugins": ["page-toc", "disqus", "github-edit", "anchorjs"],
   "pluginsConfig": {
     "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4",
     "position": "top",
@@ -11,9 +11,18 @@
     "disqus": {
       "shortName": "apuntes-javascript-principiante"
     },
-    "edit-link": {
-      "base": "git remote add origin git@github.com:trainings-juanmaguitar/apuntes-javascript-principiante/edit/master/docs",
-      "label": "Edit This Page"
+    "github-edit": {
+      "repo": "trainings-juanmaguitar/apuntes-javascript-principiante",
+      "branch": "master"
+    },
+    "anchorjs": {
+      "selector": "h2,h3,h4,h5",
+      "icon": "#",
+      "placement": "left",
+      "visible": "always",
+      "class": "custom-class another-one",
+      "truncate": 64,
+      "ariaLabel": "Anchor"
     }
   }
 }
