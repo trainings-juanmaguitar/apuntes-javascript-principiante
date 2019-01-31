@@ -3,17 +3,16 @@
   "styles": {
     "website": "styles/website.css"
   },
-  "plugins": ["page-toc", "disqus", "github-edit", "anchorjs"],
+  "plugins": ["page-toc", "disqus", "github", "anchorjs"],
   "pluginsConfig": {
     "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4",
     "position": "top",
     "showByDefault": true,
     "disqus": {
-      "shortName": "apuntes-javascript-principiante"
+      "shortName": "apuntes-javascript"
     },
-    "github-edit": {
-      "repo": "trainings-juanmaguitar/apuntes-javascript-principiante",
-      "branch": "master"
+    "github": {
+      "url": "https://github.com/trainings-juanmaguitar/apuntes-javascript-principiante"
     },
     "anchorjs": {
       "selector": "h2,h3,h4,h5",
